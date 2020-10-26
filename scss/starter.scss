@@ -25,7 +25,8 @@ $enable-shadows: true;
 
 // Customize some defaults
 $body-color: black;
-$body-bg: #e5e5e5;
+$body-bg: #FFF;
+
 
 
 //
@@ -87,7 +88,11 @@ $body-bg: #e5e5e5;
 //
 
 body {
-  padding: 3rem;
+  // padding: 3rem;
+}
+
+.nav {
+  margin-bottom: 2rem;
 }
 
 h1{
