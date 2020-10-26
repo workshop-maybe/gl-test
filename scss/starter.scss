@@ -14,6 +14,11 @@
 // Override Bootstrap here
 //
 
+// Custom Imports
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+
+
+
 // Toggle global options
 $enable-gradients: true;
 $enable-shadows: true;
@@ -83,4 +88,8 @@ $body-bg: #e5e5e5;
 
 body {
   padding: 3rem;
+}
+
+h1{
+  font-family: 'Bebas Neue', serif;
 }
