@@ -19,8 +19,8 @@ $enable-gradients: true;
 $enable-shadows: true;
 
 // Customize some defaults
-$body-color: purple;
-$body-bg: #f5f5f5;
+$body-color: black;
+$body-bg: #e5e5e5;
 
 
 //
@@ -54,8 +54,8 @@ $body-bg: #f5f5f5;
 // @import "bootstrap/scss/button-group";
 // @import "bootstrap/scss/input-group"; // Requires forms
 // @import "bootstrap/scss/custom-forms";
-// @import "bootstrap/scss/nav";
-// @import "bootstrap/scss/navbar"; // Requires nav
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar"; // Requires nav
 // @import "bootstrap/scss/card";
 // @import "bootstrap/scss/breadcrumb";
 // @import "bootstrap/scss/pagination";
